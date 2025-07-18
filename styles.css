@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.mini-container{
+    background-color: #6943FF;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+
+}
+.mini-container h1 {
+    font-size: 1.7rem
+}
+
+input {
+    width: 20%;
+    height: 40%;
+    font-size: 4rem;
+    padding-left: 10px;
+    background-color:#6943FF ;
+    border: 2px solid #9a7fd9;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+  input:focus {
+    border: 10px solid #c9b5ff;
+  }
+  
+  .mini-container button {
+    padding: 10px 33px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .conversion {
+    width: 100%;
+    height: 60vh;
+    background-color:#F4F4F4;
+    padding-top: 30px;
+  }
+
+  .conversion-meter{
+    width: 80%;
+    height: 25%;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 1.7rem auto;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.conversion-title{
+    font-size: 1.2rem;
+    color: #5A537B;
+    font-weight: bold;
+}
+.conversion-result{
+    color: #353535;
+}
+
+span {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+  
+  
