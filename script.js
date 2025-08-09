@@ -1,5 +1,5 @@
 let ButtonEl = document.getElementById("btn")
-let inputEl = document.getElementById("numberType")
+let inputEl = document.getElementById("number-type")
 const conversionEl = document.querySelector(".conversion-result")
 const conversionEl2 = document.getElementById("cv2")
 const conversionEl3 = document.getElementById("cv3")
