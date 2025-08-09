@@ -3,7 +3,10 @@ let inputEl = document.getElementById("numberType")
 const conversionEl = document.querySelector(".conversion-result")
 const conversionEl2 = document.getElementById("cv2")
 const conversionEl3 = document.getElementById("cv3")
-let useless = document.querySelector(".mini-container")
+const useless = document.querySelector(".mini-container")
+const containerEl = document.querySelector(".conversion-meter")
+
+// setting 
 
 ButtonEl.addEventListener('click', function(){
     let number = inputEl.value
@@ -25,7 +28,7 @@ ButtonEl.addEventListener('click', function(){
 }
 )
 
-inputEl.addEventListener('keypress', function(e){
+inputEl.addEventListener('keypress', (e) =>{ 
     if (e.key === "Enter"){
         ButtonEl.click()
     }
